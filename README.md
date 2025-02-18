@@ -1,16 +1,27 @@
-# pertemuan2
+# Dashboard Flutter
+![Dashboard Image](assets/images/Display.png)
 
-A new Flutter project.
+Ini adalah aplikasi Flutter sederhana yang menampilkan **Dashboard** dengan beberapa elemen UI seperti **CircleAvatar**, **Teks**, **Tombol**, dan **Kartu** (Card). Aplikasi ini dirancang untuk memberi tampilan antarmuka pengguna yang menarik dan interaktif.
 
-## Getting Started
+## Fitur
 
-This project is a starting point for a Flutter application.
+1. **CircleAvatar**: Menampilkan gambar profil pengguna di bagian atas.
+2. **Text**: Menampilkan nama dan ID pengguna.
+3. **Tombol**: 3 tombol yang sejajar di bawah nama.
+4. **Kartu (Card)**: Kartu yang disusun 2x2 dengan gambar dan warna yang berbeda.
 
-A few resources to get you started if this is your first Flutter project:
+## Tampilan
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Aplikasi ini memiliki struktur layout berikut:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **AppBar** di bagian atas.
+- **CircleAvatar** untuk gambar profil.
+- Nama dan ID pengguna.
+- Tombol yang sejajar di bawah nama.
+- 2x2 **GridView** yang berisi kartu dengan gambar dan warna berbeda.
+
+## Instalasi
+
+1. **Clone repository**:
+   ```bash
+   git clone <url-repository>
